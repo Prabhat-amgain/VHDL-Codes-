@@ -1,50 +1,97 @@
-VHDL-Codes
+# ⚡ VHDL-Codes
 
-This repository contains basic and commonly used VHDL programs along with their corresponding testbenches.
-It is designed to help beginners understand digital logic design concepts and learn how to simulate VHDL code using tools like GHDL and GTKWave.
+A clean collection of beginner-friendly **VHDL programs** along with their **testbenches**.
+This repository is perfect for students and learners who want to understand digital logic design, simulation, and waveform analysis using **GHDL** and **GTKWave**.
 
-⭐ Features
+---
 
-Clean and simple VHDL codes for fundamental logic gates.
+## ⭐ Highlights
 
-Testbenches included for simulation and waveform analysis.
+* ✔️ Simple, readable, and well-structured VHDL codes
+* ✔️ Testbenches included for every module
+* ✔️ Great for university labs & digital logic learning
+* ✔️ Works on any simulator supporting VHDL-93
+* ✔️ Perfect starting point for FPGA and hardware design enthusiasts
 
-Beginner-friendly structure and naming convention.
+---
 
-Useful for university labs, digital logic learners, and FPGA beginners.
+## ▶️ Running the Code (GHDL + GTKWave)
 
-▶️ How to Run (GHDL + GTKWave)
-1. Analyze the design file
+### **1. Analyze (compile) the design**
+
+```sh
 ghdl -a and_gate.vhd
-2. Analyze the testbench
+```
+
+### **2. Analyze the testbench**
+
+```sh
 ghdl -a tb_and_gate.vhd
-3. Elaborate
+```
+
+### **3. Elaborate**
+
+```sh
 ghdl -e tb_and_gate
-4. Run the simulation
+```
+
+### **4. Run simulation**
+
+```sh
 ghdl -r tb_and_gate --vcd=and_gate.vcd
-5. View waveform
+```
+
+### **5. View waveform**
+
+```sh
 gtkwave and_gate.vcd
-📚 Included Codes
+```
 
-AND Gate
+---
 
-OR Gate
+## 📸 GTKWave Output
 
-NOT Gate
+You can upload your waveform images here to showcase the simulation result:
 
-NAND Gate
+### **AND Gate Output**
 
-NOR Gate
 
-2:1 Multiplexer
+<img width="1426" height="576" alt="Screenshot 2025-11-27 122628" src="https://github.com/user-attachments/assets/0d9a13bf-52ca-49e4-acff-f1b38157ebc5" />
 
-Testbenches for the above modules
+### **Other Gate Outputs**
 
-🤝 Contributions
+<img width="1234" height="481" alt="Screenshot 2025-11-27 123249" src="https://github.com/user-attachments/assets/58acc6a3-090a-46ba-bef1-67512b63e985" />
 
-Feel free to fork, modify, and submit pull requests.
-If you want to add more VHDL codes or testbenches, contributions are welcome!
 
-📜 License
+---
 
-This repository is open-source and available under the MIT License.
+## 📘 Included Concepts
+
+* AND, OR, NOT, NAND, NOR gates
+* 2:1 Multiplexer
+* Writing and understanding testbenches
+* Basic waveform inspection
+* Digital logic behavior in simulation
+
+---
+
+## 🤝 Contribution
+
+Want to add more VHDL modules or testbenches?
+Feel free to fork the repo, improve the code, and open a pull request!
+
+---
+
+## © Copyright
+
+**© 2025 [Prabhat-amgain](https://github.com/Prabhat-amgain)**
+All rights reserved.
+This repository is owned and maintained by Prabhat Amgain.
+
+---
+
+## 📜 License
+
+This project is open-source and released under the **MIT License**.
+
+---
