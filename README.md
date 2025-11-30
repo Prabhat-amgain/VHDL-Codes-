@@ -3,19 +3,6 @@ VHDL-Codes
 This repository contains basic and commonly used VHDL programs along with their corresponding testbenches.
 It is designed to help beginners understand digital logic design concepts and learn how to simulate VHDL code using tools like GHDL and GTKWave.
 
-📁 Repository Structure
-VHDL-Codes/
-│
-├── and_gate.vhd
-├── nand_gate.vhd
-├── nor_gate.vhd
-├── not_gate.vhd
-├── or_gate.vhd
-├── mux.vhd
-│
-├── tb_and_gate.vhd
-├── tb_nand_gate.vhd
-├── tb_nor_gate.vhd
 ⭐ Features
 
 Clean and simple VHDL codes for fundamental logic gates.
