@@ -20,4 +20,5 @@ begin
     a <= '1'; wait for 100 fs;
     wait;  
   end process;
+
 end architecture;
