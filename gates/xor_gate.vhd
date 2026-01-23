@@ -10,4 +10,5 @@ end entity xor_gate;
 architecture beh of xor_gate is
   begin
     y<= a xor b;
+
 end architecture beh;
